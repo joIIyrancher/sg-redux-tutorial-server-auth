@@ -19,6 +19,7 @@ mongoose.connect('mongodb://localhost:auth/auth');
 // mongoose.connect('mongodb://localhost:auth/<db name>');
 
 
+
 // Note about Nodemon module
 // nodemon watches our project directory for any file changes
 // if there are any changes, the server will restart and updated with new changes
