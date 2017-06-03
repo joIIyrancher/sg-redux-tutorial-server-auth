@@ -17,7 +17,7 @@ module.exports = function(app) {
   //        request
   // next = error handling
   app.get('/', requireAuth, function(req, res, next) {
-    res.send(['waterbottle', 'phone', 'paper']);
+    res.send({ message: 'Super secret code is ABC123'});
   });
 
   // send user a token when user is auth'd
